@@ -1,0 +1,496 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar section */
+.nav1{
+	width: 100%;
+	height: 70px;
+	color: #000000;
+	position: fixed;
+	top: 0px;
+}
+.navbar-brand img{
+	width: 130px;
+	margin-top: 60px;
+	/* margin-left: 45px; */
+    justify-content: flex-start;
+}
+
+.navbar-nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: cursive;
+	padding: 0px 27px;
+	color: #000000;
+}
+
+.menu{
+    justify-content: end;
+    margin-top: 35px;
+}
+
+/* nav media query*/
+@media only screen and (max-width: 768px) 
+{
+ .navbar-brand img{
+    width: 100px;
+    margin-top: 20px;
+    
+  }
+
+ .navbar-nav a{
+    padding: 0px 10px;
+  }
+
+ .menu{
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) 
+{
+ .navbar-brand img{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+ .navbar-nav a{
+    padding: 0px 10px;
+  }
+
+ .menu{
+    margin-left: 0;
+  }
+}
+
+/* hero section */
+
+.carousel-item img{
+    height: 100vh;
+    width: 100%;
+}
+
+/* hero media query */
+@media only screen and (max-width: 768px) 
+{
+ .carousel-item img{
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 480px)
+{
+ .carousel-item img{
+    height: 40vh;
+  }
+}
+
+/* about section */
+#about{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.about{
+    padding-top: 55px;
+}
+
+.about h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.aboutp{
+    width: 30%;
+    margin-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.about-img{
+    width: 30%;
+    float: right;
+    margin: -395px 13% 0 0;
+}
+
+/* about media queries */
+@media only screen and (max-width: 768px) 
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+ 
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 520px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -260px 27% 0 0;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 676px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 560px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -225px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 510px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 580px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -190px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 600px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -160px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 400px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 630px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -140px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 350px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 730px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -120px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 300px)
+{
+
+    #about{
+        height: 100%;
+        width: 100%;
+        background-color: aliceblue;
+    }
+
+    
+
+    .aboutp{
+        width: 100%;
+        margin-left: 0%;
+        height: 760px;
+    }
+
+    .about-img{
+        width: 40%;
+        margin: -105px 27% 0 0;
+        height: 100%;
+    }
+
+}
+
+/* gallery section */
+#gallery{
+    height: 100%;
+    width: 100%;
+}
+
+.Gallery{
+    padding-top: 55px;
+    
+}
+
+.Gallery h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 5px;
+    overflow-y: scroll;
+    height: 82vh;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery img.four-grid-cells {
+    grid-row: span 3 / auto;
+    grid-column: span 2 / auto;
+}
+
+.gallery img.wide-image {
+    grid-column: span 1 / auto;
+}
+
+/* gallery media queries */
+@media only screen and (max-width: 768px) {
+ .gallery {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+/* testimonial section */
+#testimonial {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    height: 100vh;
+    width: 100%;
+    margin-top: 5px;
+
+  }
+
+ .Testimonial h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+   figure.snip1139 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+  }
+   figure.snip1139 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  }
+   figure.snip1139 img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+   figure.snip1139 blockquote {
+    position: relative;
+    background-color: #ffffff;
+    padding: 25px 50px 25px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    line-height: 1.6em;
+    font-style: italic;
+  }
+   figure.snip1139 blockquote:before,
+   figure.snip1139 blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+  }
+   figure.snip1139 blockquote:before {
+    top: 25px;
+    left: 20px;
+  }
+   figure.snip1139 blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 0;
+  }
+   figure.snip1139 .arrow {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #ffffff;
+    margin: 0;
+    position: absolute;
+  }
+   figure.snip1139 .author {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 25px;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    text-transform: uppercase;
+  }
+   figure.snip1139 .author h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+  }
+   figure.snip1139 .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    padding-left: 5px;
+  }
+  
+  /* testimonial media query */
+  @media only screen and (max-width: 768px) {
+
+    #testimonial {
+        background-color: #212121;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: wrap;
+        height: 100%;
+        width: 100%;
+        margin-top: 5px;
+    
+      }
+    
+  figure.snip1139 {
+    margin: 10px auto; 
+    min-width: 0; 
+    max-width: none; 
+  }
+
+  figure.snip1139 blockquote {
+    padding: 15px 20px; 
+    font-size: 1em; 
+  }
+
+  figure.snip1139 blockquote:before,
+  figure.snip1139 blockquote:after {
+    font-size: 30px; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  figure.snip1139 {
+    margin: 10px; 
+  }
+
+  figure.snip1139 .author {
+    padding: 5px 15px; 
+  }
+}
